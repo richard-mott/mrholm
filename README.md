@@ -1,2 +1,2 @@
-# mrholm
-Website for Mr. Holm
+## Website for Mr. Holm
+This site is to assist students for Mr. Holm.
