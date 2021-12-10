@@ -1,0 +1,41 @@
+.chapter {
+    margin: 1rem;
+    border: 2px solid #000000;
+}
+
+.chapter > h1 {
+    margin: 0rem;
+    padding: 1rem;
+    border-bottom: 2px solid #000000;
+    background-color: cadetblue;
+}
+
+.chapter hr {
+    margin: 1rem;
+}
+
+.section-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.section {
+    margin: 1rem;
+}
+
+.section h2 {
+    margin: 0rem;
+}
+
+.section h3 {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.section p {
+    margin: 0.5rem;
+    align-items: flex-end;
+    text-align: center;
+}

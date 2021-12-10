@@ -1,0 +1,39 @@
+.navigation-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #000000;
+}
+
+.logo {
+    display: flex;
+    height: 4rem;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.logo h1 {
+    font-family: 'Vivaldi', script;
+    margin: 0.5rem 1rem;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.main-nav > li {
+    margin-left: 1.5rem;
+}
+
+.current-page {
+    color: #EC652D;
+    border-bottom: 1px solid #EC652D;
+}

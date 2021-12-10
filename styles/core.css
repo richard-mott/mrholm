@@ -1,0 +1,66 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-list > li > a:hover {
+    border-bottom: 1px solid #EC652D;
+    color: #EC652D;
+}
+
+.home-greeting {
+    margin: 1rem;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+}
+
+.home-greeting h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.home-greeting p {
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.card {
+    border: 2px solid #000000;
+    padding: 0rem;
+}
+
+.card h2 {
+    text-align: center;
+    margin: 0rem;
+    padding: 1rem;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h2 > a:hover {
+    border-bottom: 1px solid #EC652D;
+    color: #EC652D;
+}
