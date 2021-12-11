@@ -1,17 +1,22 @@
 .chapter {
     margin: 1rem;
-    border: 2px solid #000000;
+    margin-bottom: 2rem;
+    border: 2px solid #4040A1;
+    background: #D6D4E0;
 }
 
 .chapter > h1 {
     margin: 0rem;
     padding: 1rem;
-    border-bottom: 2px solid #000000;
-    background-color: cadetblue;
+    border-bottom: 2px solid #4040A1;
+    background-color: #667292;
+    color: #FFFFF8;
+    text-align: center;
 }
 
 .chapter hr {
     margin: 1rem;
+    border: 2px solid #667292;
 }
 
 .section-card-container {
@@ -21,6 +26,9 @@
     margin: 1rem;
 }
 
+.section-card-container .card {
+    background: #FFFFF8;
+}
 .section {
     margin: 1rem;
 }
@@ -32,6 +40,7 @@
 .section h3 {
     margin: 0.5rem;
     text-align: center;
+    color: #4040A1;
 }
 
 .section p {

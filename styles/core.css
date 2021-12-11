@@ -1,10 +1,31 @@
 html {
     font-size: 16px;
+    background: #FFFFF8;
 }
 
 body {
     margin: 0 auto;
     padding: 0;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+a {
+    color: #4040A1;
+}
+
+a:hover {
+    color: #C83349;
 }
 
 .link-list {
@@ -13,18 +34,18 @@ body {
 
 .link-list > li > a {
     text-decoration: none;
-    color: #000000;
+    color: #4040A1;
 }
 
 .link-list > li > a:hover {
-    border-bottom: 1px solid #EC652D;
-    color: #EC652D;
+    border-bottom: 1px solid #c83349;
+    color: #c83349;
 }
 
 .home-greeting {
     margin: 1rem;
-    border: 2px solid #000000;
-    border-radius: 1rem;
+    border: 2px solid #4040A1;
+    background-color: #D6D4E0;
 }
 
 .home-greeting h1 {
@@ -45,22 +66,24 @@ body {
 }
 
 .card {
-    border: 2px solid #000000;
+    border: 2px solid #4040A1;
     padding: 0rem;
+    background-color: #D6D4E0;
 }
 
 .card h2 {
     text-align: center;
     margin: 0rem;
-    padding: 1rem;
 }
 
 h2 > a {
     text-decoration: none;
-    color: #000000;
+    display: block;
+    padding: 1rem;
+    color: #4040A1;
 }
 
 h2 > a:hover {
-    border-bottom: 1px solid #EC652D;
-    color: #EC652D;
+    color: #FFFFFF;
+    background-color: #4040A1;
 }

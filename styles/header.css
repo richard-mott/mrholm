@@ -1,7 +1,7 @@
 .navigation-container {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #4040A1;
 }
 
 .logo {
@@ -14,8 +14,10 @@
 }
 
 .logo h1 {
-    font-family: 'Vivaldi', script;
+    font-family: 'Gwendolyn', cursive;
     margin: 0.5rem 1rem;
+    font-size: 2.4rem;
+    color: #4040A1;
 }
 
 nav {
@@ -34,6 +36,6 @@ nav {
 }
 
 .current-page {
-    color: #EC652D;
-    border-bottom: 1px solid #EC652D;
+    color: #C83349;
+    border-bottom: 1px solid #C83349;
 }
