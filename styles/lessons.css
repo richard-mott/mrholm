@@ -48,3 +48,8 @@
     align-items: flex-end;
     text-align: center;
 }
+
+.graph-paper {
+    text-align: center;
+    background: #FFFFF8;
+}

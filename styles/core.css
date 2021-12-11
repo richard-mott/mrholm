@@ -38,8 +38,8 @@ a:hover {
 }
 
 .link-list > li > a:hover {
-    border-bottom: 1px solid #c83349;
-    color: #c83349;
+    border-bottom: 1px solid #C83349;
+    color: #C83349;
 }
 
 .home-greeting {
@@ -51,6 +51,8 @@ a:hover {
 .home-greeting h1 {
     text-align: center;
     margin: 1rem;
+    font-size: 2.5rem;
+    color: #C83349;
 }
 
 .home-greeting p {
